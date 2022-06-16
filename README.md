@@ -12,4 +12,9 @@ https://linuxize.com/post/how-to-install-ffmpeg-on-centos-7/
 
 update extension.conf with following code 
 
+exten => 2586,n,Answer()
+exten => 2586,n,Set(MONITOR_EXEC_ARGS=filepath/monotstr.sh  file-in.wav  file-out.wav  output.wav)
+
+
+
 
