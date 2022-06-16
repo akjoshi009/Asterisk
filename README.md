@@ -4,16 +4,16 @@ ie. each party of the phone call represents one channel of a stereo recording. T
 This example requires the support of options within the Monitor application, version 1.0.7 and above is ok, but also earlier versions might work.
 
 Requirments:
-ffmpeg 
-asterisk
+ffmpeg <br>
+asterisk<br>
 
-Just install ffmpeg use following link:
-https://linuxize.com/post/how-to-install-ffmpeg-on-centos-7/
+Just install ffmpeg use following link:<br>
+https://linuxize.com/post/how-to-install-ffmpeg-on-centos-7/<br><br>
 
 update extension.conf with following code 
 
-exten => 2586,n,Answer()
-exten => 2586,n,Set(MONITOR_EXEC_ARGS=filepath/monotstr.sh  file-in.wav  file-out.wav  output.wav)
+exten => 2586,n,Answer() <br>
+exten => 2586,n,Set(MONITOR_EXEC_ARGS=filepath/monotstr.sh  file-in.wav  file-out.wav  output.wav)<br>
 
 
 
