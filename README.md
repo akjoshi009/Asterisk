@@ -4,5 +4,5 @@ ie. each party of the phone call represents one channel of a stereo recording. T
 This example requires the support of options within the Monitor application, version 1.0.7 and above is ok, but also earlier versions might work.
 
 Requirments:
-ffmpeg
-asterisk
+ffmpeg \n
+asterisk \n
